@@ -1,9 +1,6 @@
 PVector mouse ; 
 ArrayList<Snow> snowballs = new ArrayList<Snow>();
-/**********
- int num = 50;  
- Snow[] r = new Snow[num];  //declare a new Snow called r
- *****************/
+
 Catcher c;
 Score s;
 
@@ -48,7 +45,3 @@ void draw() {
     }
   }
 }
-//void score() {
-//if (s == 20) {
-//gameOverPage();
-//}
